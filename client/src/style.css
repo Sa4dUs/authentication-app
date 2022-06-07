@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.svg {
+  width: 30%;
+  margin-bottom: 1em;
+}
+
+.form {
+  display: flex;
+  flex-flow: column;
+  width: 35%;
+  margin: auto;
+  margin-top: 3em;
+  padding: 1em;
+  border: solid 1px #ffffff;
+  border-radius: 1em;
+  box-sizing: content-box;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.form svg {
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+.form p {
+  text-align: left;
+}
+
+.form input,
+button {
+  margin: 0.7em auto;
+  width: 100%;
+}
+
+.form span {
+  margin: 1em;
+}
+
+.social-container {
+  display: inline-block;
+}
+
+.social-container img {
+  color: #ffffff;
+  width: 10%;
+  margin: auto 0.7em;
+}
+
+.image {
+  display: none !important;
+}
+
+.profile-comment {
+  text-align: center !important;
+}
+
+.profile-info {
+  width: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.profile-presentation {
+  flex-direction: "column";
+}
+
+.profile-info div {
+  display: flex;
+}
+
+.profile-info div span {
+  width: 12em;
+}
+
+.text-content {
+  margin: auto !important;
+}
+
+.image-content {
+  margin: 0 auto !important;
+  width: 3.5em;
+  border-radius: 0.5em;
+}
+
+.image-label {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.image-form {
+  margin-left: 1em !important;
+  width: 3.5em;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+.message {
+  background-color: #ff0000;
+  border-radius: 0.5em;
+  padding: 1em;
+}
+
+.message p {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .svg {
+    width: 40%;
+    margin-bottom: 0.7em;
+  }
+
+  .form svg {
+    margin-bottom: 1em;
+    text-align: left;
+  }
+
+  .form input,
+  button {
+    margin: 0.5em auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 330px) {
+  .text-muted {
+    font-size: small;
+  }
+}
